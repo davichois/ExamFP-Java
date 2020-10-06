@@ -1,11 +1,14 @@
 import java.util.Scanner;
+import java.util.Date;
 
 public class App {
     static Scanner teclado = new Scanner(System.in);
+    static Date d = new Date();
 
     public static void main(String[] args) throws Exception {
         int eleccion;
-        System.out.println("Bienvenido al Examen....\n");
+        System.out.println("\nBienvenido al Examen....\n");
+        System.out.println(d.toString());
         System.out.println(
                 "Cual ejercicio quieres: \n[1]. Ejercicio1\n[2]. Ejercicio2\n[3]. Ejercicio3\n[4]. Ejercicio4\n[5]. Ejercicio5\n[0]. Salir\n");
         eleccion = teclado.nextInt();
