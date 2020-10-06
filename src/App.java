@@ -1,6 +1,8 @@
 import java.util.Scanner;
 import java.util.Date;
 
+//Importar ejercicios
+
 public class App {
     static Scanner teclado = new Scanner(System.in);
     static Date d = new Date();
@@ -212,6 +214,10 @@ public class App {
                 System.out.println("errr");
                 break;
         }
+    }
+
+    public static void ejercicio1(String[] args) {
+
     }
 
 }
