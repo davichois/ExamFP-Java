@@ -110,17 +110,17 @@ public class App {
         edad = teclado.nextInt();
         // Logica y datos de salida
         if (edad > 70) {
-            System.out.println("Vacuna de tipo [ C ]");
+            System.out.println("Vacuna de tipo [ C ] para " + nombre);
         } else if (edad >= 16 && edad <= 69) {
             if (sexo == 0) {
-                System.out.println("Vacuna de tipo [ B ]");
+                System.out.println("Vacuna de tipo [ B ] para " + nombre);
             } else if (sexo == 1) {
-                System.out.println("Vacuna de tipo [ A ]");
+                System.out.println("Vacuna de tipo [ A ] para " + nombre);
             } else {
                 System.out.println("error");
             }
         } else if (edad < 16) {
-            System.out.println("Vacuna de tipo [ A ]");
+            System.out.println("Vacuna de tipo [ A ] para " + nombre);
         } else {
             System.out.println("error.....");
         }
