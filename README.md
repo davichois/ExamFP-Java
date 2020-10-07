@@ -1,1 +1,1 @@
-## Java Examen
+## Java Exam and Python Exam
