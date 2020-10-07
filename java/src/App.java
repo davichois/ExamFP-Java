@@ -16,24 +16,24 @@ public class App {
         eleccion = teclado.nextInt();
         switch (eleccion) {
             case 1:
-                ejercicio1();
-                repetir();
+                ejercicio1dpl();
+                repetirDPL();
                 break;
             case 2:
-                ejercicio2();
-                repetir();
+                ejercicio2dpl();
+                repetirDPL();
                 break;
             case 3:
-                ejercicio3();
-                repetir();
+                ejercicio3dpl();
+                repetirDPL();
                 break;
             case 4:
-                ejercicio4();
-                repetir();
+                ejercicio4dpl();
+                repetirDPL();
                 break;
             case 5:
-                ejercicio5();
-                repetir();
+                ejercicio5dpl();
+                repetirDPL();
                 break;
             case 0:
                 System.out.println("Chau....");
@@ -43,7 +43,7 @@ public class App {
         }
     }
 
-    static void ejercicio1() {
+    static void ejercicio1dpl() {
         // Definiendo variables
         int unidad1, unidad2, unidad3, trabajoFinal;
         double notaFinal;
@@ -65,7 +65,7 @@ public class App {
         System.out.println("La nota final del estudiante es: " + notaFinal);
     }
 
-    static void ejercicio2() {
+    static void ejercicio2dpl() {
         // Definiedo variables
         int puntos;
         double salario, bono, totalC;
@@ -101,7 +101,7 @@ public class App {
         System.out.println("Gracias....");
     }
 
-    static void ejercicio3() {
+    static void ejercicio3dpl() {
         // Declarando variables
         String nombre;
         int edad, sexo;
@@ -134,7 +134,7 @@ public class App {
         System.out.println("Gracias....");
     }
 
-    static void ejercicio4() {
+    static void ejercicio4dpl() {
         // Definiendo variables
         int a, b, operacion, signo;
         // Dato de entrada
@@ -179,7 +179,7 @@ public class App {
 
     }
 
-    static void ejercicio5() {
+    static void ejercicio5dpl() {
         // Definir variables
         int salario;
         double salarioIncremento;
@@ -199,7 +199,7 @@ public class App {
         System.out.println("Gracias....");
     }
 
-    static void repetir() throws Exception {
+    static void repetirDPL() throws Exception {
         int repetir;
         System.out.println("Quieres ir a seccion de menu:\n[1] Si\n[2] No ");
         repetir = teclado.nextInt();
@@ -214,10 +214,6 @@ public class App {
                 System.out.println("errr");
                 break;
         }
-    }
-
-    public static void ejercicio1(String[] args) {
-
     }
 
 }
